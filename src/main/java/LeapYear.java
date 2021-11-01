@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class LeapYear {
     private int year;
     private boolean leap = false;
