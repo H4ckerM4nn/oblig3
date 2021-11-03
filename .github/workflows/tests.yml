@@ -27,6 +27,6 @@ jobs:
       if: ${{ always() }}
       uses: scacap/action-surefire-report@v1
       with:
-        check_name: Unit Test Results
+        check_name: Test_isLeapYear
         files: "target/surefire-reports/*.xml"
 
