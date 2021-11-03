@@ -26,6 +26,5 @@ jobs:
     - name: Publish Test Report ${{ matrix.java }}
       if: ${{ always() }}
       uses: scacap/action-surefire-report@v1
-      with:
-        files: "target/surefire-reports/*.xml"
+     
 
